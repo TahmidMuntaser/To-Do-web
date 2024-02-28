@@ -16,11 +16,14 @@ body{
 } 
 
 .container{
-    height: 500px;
+    height: 70%;
     width: 420px;
     background-color: white;
     border-radius: 20px;
     padding: 10px;
+    overflow-y: auto; 
+    font-size: 20px;
+    /* save the overflow */
 }
 
 
@@ -61,6 +64,8 @@ h2{
     width: 100%;
     display: flex;
     justify-content: center;
+    /* max-height: 400px; /* Adjust as needed */
+    /* dfdsdsdoverflow-y: auto;  */
 }
 
 hr{
