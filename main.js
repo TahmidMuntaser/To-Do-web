@@ -5,6 +5,10 @@ var inputField = document.getElementById('input');
 add.addEventListener('click', function(){
     var input = document.getElementById('input').value;
 
+    if (!input) {
+        return;
+    }
+
     // console.log(input);
 
     var text = document.createTextNode(input);
