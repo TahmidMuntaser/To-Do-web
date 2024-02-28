@@ -1,5 +1,6 @@
 var add = document.getElementById('add');
 // console.log(add);
+var inputField = document.getElementById('input');
 
 add.addEventListener('click', function(){
     var input = document.getElementById('input').value;
@@ -19,6 +20,11 @@ add.addEventListener('click', function(){
 
     var newitem = document.getElementById('olitem');
     newitem.appendChild(newli);
+
+   
+
+    inputField.value = ''; 
+    // clear input field after adding item
 
 
 
