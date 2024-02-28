@@ -16,8 +16,8 @@ body{
 } 
 
 .container{
-    height: 70%;
-    width: 60%;
+    height: 500px;
+    width: 420px;
     background-color: white;
     border-radius: 20px;
     padding: 10px;
@@ -46,7 +46,23 @@ button{
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: rgb(201, 40, 40);
+    background-color: rgb(40, 75, 201);
     color: white;
     font-size: 15px;
+}
+
+
+h2{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-bottom: 10px;
 }
